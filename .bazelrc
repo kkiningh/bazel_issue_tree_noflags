@@ -1,0 +1,4 @@
+# Default build options
+build --strict_system_includes
+build --experimental_strict_action_env=true
+build --experimental_cc_skylark_api_enabled_packages=@//rules,rules
